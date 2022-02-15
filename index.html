@@ -26,11 +26,22 @@
   <main>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12">
-          <div id="app"></div>
+
+        <div class="col-4">
+          <div id="app">
+            <button onclick="app.vendingController.money()">Money</button>
+          </div>
+          <div>money <span id="money">0</span></div>
+        </div>
+
+        <div id="item">
+          <!-- <div class="col-8">
+            <img class="img-fluid" id="pop-tart"
+              src="https://tse3.mm.bing.net/th?id=OIP.BUC2J6BWZVAa8tqY1MUUTAHaJu&pid=Api&P=0&w=125&h=164" alt="">
+            <h2>quantity</h2>
+          </div> -->
         </div>
       </div>
-    </div>
   </main>
   <footer class="bg-dark text-light">
     <div class="text-center no-select">
